@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    .container {
+  margin-top: 50px;
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+  align-items: center;
+  justify-content: center;
+}
+.do1{
+  margin-top: 100px;
+  background-color: orange;
+}
+.f4{
+  margin-left: 1210px;
+}
+.f3{
+  margin-left: 1210px;
+  margin-bottom:50px;
+}
+.f2{
+  margin-left: 1210px;
+}
+.f1{
+  margin-left: 1210px;
+}
+.a1{
+  font-size: 20px;
+  color: black;
+  display:inline-block;
+  
+    margin-top: -26px;
+
+}
+button{
+  height: 35px;
+  width: 70px;
+  margin-bottom: 5px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 4px;
+}
+.graph{
+  height: 126px;
+  width: 75px;
+  background-color:rgb(46, 147, 194);
+  margin-top: -127px;
+  margin-left: 166px;
+}
+.graph2{
+  height: 126px;
+  width: 75px;
+  background-color:rgb(46, 147, 194);
+  margin-top: -73px;
+    margin-left: 683px;
+}
+.u{
+  margin-top: 58px;
+  background-color:green;
+}
+.do{
+  background-color:orange;
+  margin-bottom: 10px;
+}
+.a{
+  height:150px;
+  width: 80%;
+  border-bottom: 3px solid black;
+}
+.b{
+ 
+  height:150px;
+  width: 80%;
+  border-bottom: 3px solid black;
+}
+.c{
+  
+  height: 150px;
+  width: 80%;
+  border-bottom: 3px solid black;
+}
+.d{
+  
+  height: 150px;
+  width: 80%;
+  border-bottom: 3px solid black;
+}
+    </style>
+  
+</head>
+<body>
+    <article class="container">
+      <div class="a">
+        <button class="do1">Down</button>
+          <p class="a1 f4">Floor4</p>
+          
+      </div>
+      <div class="b">
+        <button class="u">Up</button>
+        <br>
+        <button class="do">Down</button>
+        <p class="graph"> </p>
+        <p class="a1 f3">Floor3</p>
+      </div>
+      <div class="c">
+        <button class="u">Up</button>
+        <br>
+        <button class="do">Down</button> 
+        <p class="a1 f2">Floor2</p>
+      </div>
+      <div class="d">
+        <button class="u">Up</button>
+        <p class="graph2"> </p>
+        <p class="a1 f1">Floor1</p>
+      </div>
+    </article>
+</body>
+</html> 
