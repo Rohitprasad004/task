@@ -59,7 +59,7 @@ p{
 }
 .one{
 margin-left:112px;
-    margin-top:73px;
+    margin-top:539px;
 }
 .two{
 margin-left:470px;
